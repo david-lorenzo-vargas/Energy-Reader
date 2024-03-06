@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input {
+  font-size: 1.2em;
+}
+
+.error {
+  border-color: red;
+  color: red;
+}

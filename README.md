@@ -25,6 +25,10 @@ The user can enter current electricity and gas usage both via input or pad provi
 On the right hand side of the screen it is shown a list of previous readings with date and value. The list is sorted by date in descending order, being the most recent one at the top. Under the list of previous readings there is an estimation of how much be the next usage based on the last 4 entries.
 <br><br>
 The user can decide to enter the predicted value or to enter it manualy. In both cases before the new entry is sent, a warning modal gets render asking the users if they are sure the want to add the amount selected. Once accepted the last entry gets render at the top of the list as it is the most recent entry entered.
+<br><br>
+If the new reading entered is less than 5 digits long an error message appears `Reading must be ${DIGIT_LENGTH} digits long` DIGIT_LENGHT is declared in constants file as it is a value than can be changed in the future. In case the value entered is 5 digits long but the amount is less than the last entry, an error message gets rendered `The reading must be higher than the last one`.
+<br><br>
+Add button stays deisabled until both conditions are met.
 
 ## Meter
 

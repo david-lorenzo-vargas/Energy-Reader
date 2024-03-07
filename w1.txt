@@ -1,0 +1,11 @@
+In case of the problem of conflicting priorities described in this question, I would try to resolve it in the most open and transparent way.
+
+First of all, I would set up a meeting with the product owner of each project . The aim of the meetings would be
+a) to understand the priorities of requested features and bugs
+b) to communicate the current workflow and potential impact on the timelines.
+
+Based on that discussion, ideally we should identify top-priorities based on the impact they have on the project/users or on revenue. As an example, if the bug identified on the 2nd project is urgent because it is causing some loss of revenue (e.g. Submit button for payment is not working), then it can be identified as top priority and should be included in the backlog. If a requested feature is just a "nice-to-have", then it would have less priority than the features of the current project. All this should be verified with both product owners so that, in case of the current project, the timelines weren't changed drastically or resources could be re-allocated and in case of the maintained project, the most urgent issues were prioritised too.
+
+In addition to that, I would communicate this to the team, for example, during a planning session in case Scrum is implemented, and hear out their ideas and verify if the proposed solution is feasible.
+
+Finally, if there was any documentation regarding timelines of the projects, I would document the discussions above and decisions made for accountability and transparency as well.

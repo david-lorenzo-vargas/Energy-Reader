@@ -30,6 +30,10 @@ If the new reading entered is less than 5 digits long, the following error messa
 <br><br>
 `Add` button stays deisabled until both conditions are met.
 
+## API
+
+A mock API call has been implemented via Promise that returns an array of mock data readings for initial values.
+
 ## Meter
 
 ![Mar-07-2024 15-47-10](https://github.com/david-lorenzo-vargas/Energy-Reader/assets/72414745/6f787376-c4df-4aac-ab07-695e78f8c0f9)

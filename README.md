@@ -32,11 +32,15 @@ Add button stays deisabled until both conditions are met.
 
 ## Meter
 
+![Mar-07-2024 15-47-10](https://github.com/david-lorenzo-vargas/Energy-Reader/assets/72414745/6f787376-c4df-4aac-ab07-695e78f8c0f9)
+
 ## Readings
 
-## Add new reading
+![Mar-07-2024 15-48-14](https://github.com/david-lorenzo-vargas/Energy-Reader/assets/72414745/159cc590-bc57-400d-8875-6871bf03624c)
 
 ## Add predicted reading
+
+![Mar-07-2024 15-49-29](https://github.com/david-lorenzo-vargas/Energy-Reader/assets/72414745/833fd56a-3ada-466a-a572-ce5ec75f027a)
 
 ## Stack
 

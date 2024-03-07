@@ -22,13 +22,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 The user can enter current electricity and gas usage both via input or pad provided. The value entered must be a 5 digit long number and the current value entered must be higer than the last amount entered.
 <br><br>
-On the right hand side of the screen it is shown a list of previous readings with date and value. The list is sorted by date in descending order, being the most recent one at the top. Under the list of previous readings there is an estimation of how much be the next usage based on the last 4 entries.
+On the right hand side of the screen there is a list of previous readings with date and value. The list is sorted by date in descending order, being the most recent one at the top. Under the list of previous readings there is an estimation of how much will be the next usage based on the last 4 entries.
 <br><br>
-The user can decide to enter the predicted value or to enter it manualy. In both cases before the new entry is sent, a warning modal gets render asking the users if they are sure the want to add the amount selected. Once accepted the last entry gets render at the top of the list as it is the most recent entry entered.
+The user can decide to use the predicted value or to enter a value manualy using the pad. In both cases before the new entry is sent, a warning modal is rendered asking the users to confirm the amount to be sent. Once accepted, the last entryis added to the top of the list as it is the most recent entry entered.
 <br><br>
-If the new reading entered is less than 5 digits long an error message appears `Reading must be ${DIGIT_LENGTH} digits long` DIGIT_LENGHT is declared in constants file as it is a value than can be changed in the future. In case the value entered is 5 digits long but the amount is less than the last entry, an error message gets rendered `The reading must be higher than the last one`.
+If the new reading entered is less than 5 digits long, the following error message appears: `Reading must be 5 digits long`. In case the value entered is 5 digits long but the amount is less than the last entry, an error message gets rendered: `The reading must be higher than the last one`.
 <br><br>
-Add button stays deisabled until both conditions are met.
+`Add` button stays deisabled until both conditions are met.
 
 ## Meter
 
@@ -54,7 +54,7 @@ Add button stays deisabled until both conditions are met.
   
 ## Types
 
-All types and enums have been declared in a `types.ts`
+All types and enums have been declared in `types.ts`.
 
 ## Atomic approach
 
@@ -62,9 +62,9 @@ Atomic approach has been used for structuring and ordering the componets separat
 
 ## Testing
 
-Jest and React Testing Library have been used for testing. Testing has been added for some components but, as further implementation, it would be necessary to add more unit and integration testing for other functionalities and components.
+Jest and React Testing Library have been used for testing. Testing has been added for all components and utilities but, as further implementation, it would be necessary to add more unit and integration testing for new functionalities and components.
 
-For running tests: `npm run test`
+To run tests: `npm run test`
 
 ## Accessibility
 
@@ -105,7 +105,7 @@ The app is responsive and adjusts to desktop and mobile viewports, some media qu
 
 <ul>
   <li>
-    Pagination for previous readings
+    Pagination for the list of previous readings
   </li>
   <li>
     API integration for fetching readings and posting new readings

@@ -23,7 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 The user can enter current electricity and gas usage both via input or pad provided. The value entered must be a 5 digit long number and the current value entered must be higer than the last amount entered.
 <br><br>
 On the right hand side of the screen it is shown a list of previous readings with date and value. The list is sorted by date in descending order, being the most recent one at the top. Under the list of previous readings there is an estimation of how much be the next usage based on the last 4 entries.
-<br>>br>
+<br><br>
 The user can decide to enter the predicted value or to enter it manualy. In both cases before the new entry is sent, a warning modal gets render asking the users if they are sure the want to add the amount selected. Once accepted the last entry gets render at the top of the list as it is the most recent entry entered.
 
 ## Meter

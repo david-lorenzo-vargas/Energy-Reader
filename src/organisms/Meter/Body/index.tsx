@@ -15,7 +15,7 @@ const Body = ({
   errorMessage,
 }: Props): ReactElement => {
   return (
-    <div className="border border-2 border-darkGray rounded-lg w-full pb-3 md:p-10">
+    <div className="border border-2 border-darkGray rounded-lg w-full pb-3 md:p-10 lg:p-3 xl:p-10">
       <div className="w-full mb-5 p-2 md:p-0">
         <Input
           value={currentReading}

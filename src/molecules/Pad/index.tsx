@@ -18,7 +18,7 @@ const Pad = ({
           <Button
             rounded="rounded-full"
             bgColour="bg-orange"
-            size="w-6 h-6 md:w-16 md:h-16"
+            size="w-6 h-6 md:w-16 lg:w-8 md:h-16 lg:h-8 xl:w-16 xl:h-16"
             type="button"
             id={`pad-button-${n}`}
             hoverable
@@ -32,7 +32,7 @@ const Pad = ({
       ))}
       <button
         type="button"
-        className="text-darkBlueGray absolute bottom-3 md:bottom-5 left-8 md:left-12"
+        className="text-darkBlueGray absolute bottom-3 md:bottom-5 left-8 md:left-12 lg:left-5"
         aria-label="removeAllPadButton"
         onClick={onRemoveAllPadButton}
       >
@@ -40,7 +40,7 @@ const Pad = ({
       </button>
       <button
         type="button"
-        className="text-darkBlueGray absolute bottom-3 md:bottom-5 right-8 md:right-12"
+        className="text-darkBlueGray absolute bottom-3 md:bottom-5 right-8 md:right-12 lg:right-5"
         aria-label="removePadButton"
         onClick={onRemovePadButton}
       >

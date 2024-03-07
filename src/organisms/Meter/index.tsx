@@ -77,7 +77,7 @@ const Meter = ({
   const addButtonIsDisabled = useMemo(() => currentReading.length < DIGIT_LENGTH,[currentReading]);
 
   return (
-    <div className="bg-lightGray w-full rounded-xl p-3 md:p-10">
+    <div className="bg-lightGray w-full rounded-xl p-3 md:p-10 lg:p-5 xl:p-10">
       <div>
         <Header />
       </div>

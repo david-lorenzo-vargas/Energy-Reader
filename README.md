@@ -81,9 +81,20 @@ The app is responsive and adjusts to desktop and mobile viewports, some media qu
 
 ### Mobile
 
+<table>
+<tr>
+<td width="50%"">
+  
 ![Screenshot 2024-03-07 at 15 22 35](https://github.com/david-lorenzo-vargas/Energy-Reader/assets/72414745/22cd210e-add8-4d24-9044-2e3aff8706fa)
 
+</td>
+<td width="50%">
+
 ![Screenshot 2024-03-07 at 15 22 49](https://github.com/david-lorenzo-vargas/Energy-Reader/assets/72414745/459bd00f-ceab-456f-873b-a35b2ee3afcd)
+
+</td>
+</tr>
+</table>
 
 ### Desktop
 
